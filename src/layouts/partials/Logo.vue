@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import Logo from '~/assets/images/gridsome-logo.svg'
+import Logo from '~/assets/images/only-logo.svg'
 import LogoSmall from '~/assets/images/gridsome-logo-small.svg'
 export default {
   components: {
@@ -27,7 +27,7 @@ export default {
 <style lang="scss">
  .logo {
   &__svg{
-  	max-width: 130px;
+  	max-width: 30px;
   	height: auto;
     margin-top: -3px;
     &--small {

@@ -7,67 +7,52 @@
 
       <Nav class="flex-fit"/>
 
-      <SearchForm />
+<!--      <SearchForm />-->
 
       <nav class="header-actions flex">
         <ToggleTheme />
 
         <a
           aria-label="Twitter"
-          href="//twitter.com/gridsome"
+          href="//twitter.com/hardsshah"
           rel="noopener noreferrer"
           target="_blank"
-          title="Follow us on Twitter"
+          title="Follow me on Twitter"
         >
           <twitter-logo/>
         </a>
 
         <a
-          aria-label="Discord"
-          href="//discord.gg/daeay6n"
+          aria-label="Codepen"
+          href="//codepen.io/coding-sunshine"
           rel="noopener noreferrer"
           class="hide-for-small"
           target="_blank"
-          title="Join our discord"
+          title="coding-sunshine @ Codepen"
         >
-          <discord-logo/>
+          <codepen-logo/>
         </a>
 
-        <div class="has-dropdown">
-          <a
-            aria-label="github"
-            href="//github.com/gridsome/gridsome"
-            rel="noopener noreferrer"
-            target="_blank"
-            title="Gridsome @ GitHub"
-          >
-            <github-logo
-              height="20px"
-              width="20px"
-            />
-            <span
-              class="hide-for-small"
-              style="margin-left:5px;"
-            >v{{ $static.metadata.gridsomeVersion }}</span>
-          </a>
-          <div class="dropdown">
-            <a href="//github.com/gridsome/gridsome" rel="noopener noreferrer" target="_blank">
-              Core Repository
-            </a>
-            <a href="//github.com/gridsome/gridsome/blob/master/gridsome/CHANGELOG.md" rel="noopener noreferrer" target="_blank">
-              Core Changelog
-            </a>
-            <a href="//github.com/gridsome/gridsome/issues" rel="noopener noreferrer" target="_blank">
-              Core Issues
-            </a>
-             <a href="//github.com/gridsome/gridsome/projects/2" rel="noopener noreferrer" target="_blank">
-              Gridsome Roadmap
-            </a>
-            <a href="//github.com/gridsome/gridsome.org" rel="noopener noreferrer" target="_blank">
-              Website Repository
-            </a>
-          </div>
-        </div>
+        <a
+          aria-label="github"
+          href="//github.com/coding-sunshine"
+          rel="noopener noreferrer"
+          target="_blank"
+          title="coding-sunshine @ GitHub"
+        >
+          <github-logo/>
+        </a>
+
+        <a
+          aria-label="linkedin"
+          href="//www.linkedin.com/in/hardsshah/"
+          rel="noopener noreferrer"
+          target="_blank"
+          title="hardsshah @ LinkedIn"
+        >
+          <linkedin-logo/>
+        </a>
+
       </nav>
     </div>
   </header>
@@ -89,6 +74,9 @@ import ToggleTheme from '@/components/ToggleTheme.vue'
 import GithubLogo from '@/assets/images/github-logo.svg'
 import TwitterLogo from '@/assets/images/twitter-logo.svg'
 import DiscordLogo from '@/assets/images/discord-logo.svg'
+import CodepenLogo from '@/assets/images/codepen-logo.svg'
+import LinkedinLogo from '@/assets/images/linkedin-logo.svg'
+
 import LazyHydrate from 'vue-lazy-hydration'
 
 export default {
@@ -98,6 +86,8 @@ export default {
     TwitterLogo,
     ToggleTheme,
     DiscordLogo,
+    CodepenLogo,
+    LinkedinLogo,
     SearchForm,
     Nav,
     LazyHydrate

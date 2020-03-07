@@ -8,8 +8,8 @@
         ref="input"
         :id="`${id}-input`"
         class="header-search__input"
-        placeholder="Search Gridsome docs..."
-        title="Search docs"
+        placeholder="Search..."
+        title="Search..."
         type="search"
         @focus="onFocus"
       />
