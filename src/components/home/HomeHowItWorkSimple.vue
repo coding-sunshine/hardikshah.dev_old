@@ -1,61 +1,39 @@
 <template>
-  <Section class="works">
+  <Section class="works" id="about">
     <div class="grid-cols grid-cols--gap-large grid-cols--full-md">
 
-      <Card title="Bring your data">
-        <h4>CMSs</h4>
-        <p>Any Headless CMS, Contentful, WordPress, Drupal, Sanity.io, etc.</p>
-        <h4>Data</h4>
-        <p>Any APIs, Databases, AirTable, YAML, CSV, JSON, etc.</p>
-        <h4>Markdown</h4>
-        <p>Any Git-based CMS, Forestry, Netlify CMS, Blogs, Documentation.</p>
-
-        <template slot="outer">
-          <Dots class="hide-for-small"/>
-          <Dots class="dots--vertical show-for-small"/>
-        </template>
-      </Card>
-
-      <Card title="Build" class="text-center flex-align-middle">
-
-        <div class="works__logo">
-          <gridsome-logo />
-          <div class="works__pulse-bg"></div>
-          <div class="works__pulse-bg"></div>
-        </div>
-
-        <p class="works__powered-by">
-          Powered by <br/><strong>GraphQL </strong>
-          <graph-ql-logo width="15" height="18" />
-        </p>
-
-        <ul class="works__tools flex gap-15 text-center flex--center">
-          <li>HTML</li>
-          <li><vue-logo width="28" height="28" alt="Vue" /> Vue.js</li>
-          <li>CSS</li>
-        </ul>
-
-        <template slot="outer">
-          <Dots class="hide-for-small"/>
-          <Dots class="dots--vertical show-for-small"/>
-        </template>
-      </Card>
-
-      <Card title="Deploy">
-        <h4>Static Web Hosts & CDNs</h4>
+      <Card title="About Me">
         <p>
-          <g-link to="/docs/deploy-to-netlify/">Netlify</g-link>, <g-link to="/docs/deploy-to-amplify/">AWS Amplify</g-link>, <g-link to="/docs/deploy-to-zeit-now/">ZEIT Now</g-link>, <g-link to="/docs/deploy-to-amazon-s3/">Amazon S3</g-link>, <g-link to="/docs/deploy-to-surge-sh/">Surge.sh</g-link>, Aerobatic & many more.
-        </p>
+          Hello! I'm Hardik, a full-stack developer based in Melbourne, Victoria who enjoys building things that live on the internet. I develop exceptional websites and web apps that provide intuitive, user friendly interfaces with efficient and modern backends.
 
-        <ul class="bullet-list mb">
-          <li><Bullet /><g-link to="/docs/fast-by-default/#pre-rendered-html">Pre-rendered HTML</g-link></li>
-          <li><Bullet /><g-link to="/docs/fast-by-default/#automatic-code-splitting">Automatic Code Splitting</g-link></li>
-          <li><Bullet /><g-link to="/docs/fast-by-default/#the-prpl-pattern">Follows PRPL-pattern</g-link></li>
-          <li><Bullet /><g-link to="/docs/fast-by-default/#smart-link-prefetching">Smart link prefetching</g-link></li>
-          <li><Bullet /><g-link to="/docs/fast-by-default/#progressive-images">Progressive Images</g-link></li>
-        </ul>
+          <h4>Early Years</h4>
+          <p>
+            I joined the founding engineering team at Kraff Softwares(a startup based in Ahmedabad) where I work on a wide variety of interesting and meaningful projects on a daily basis for a Silicon Vally Reale state startup, <a target="_blank" href="http://www.terabitz.com/">Terabitz</a> in early 2006 under mentorship of Mr. Ashfaq Munshi, a former Yahoo CTO.
+          </p>
+          <h4>The Journey</h4>
+          <p>
+            That was just a start of the journey, which lead me to work with another startup, Clubwebsite(UK), which was later acquired by the <a target="_blank" href="https://www.pitchero.com/">Pitchero</a>
+
+            In 2011 I co-founded <a target="_blank" href="https://aecordigital.com">Aecor Digital</a> and built an Indian based development team of 50 (and counting...)
+          </p>
+          <h4>Now</h4>
+          <p>
+            In 2017 I moved to Melbourne, Australia to further explore the opportunities for Aecor Digital, and since then I am working as a remote CTO of Aecor Digital.
+          </p>
+          <p>
+            Here are a few technologies I've been working with recently:
+          </p>
+          <ul class="bullet-list mb">
+            <li><Bullet /><a href="http://php.net/" target="_blank">PHP 7.x</a></li>
+            <li><Bullet /><a href="https://laravel.com" target="_blank">Laravel</a></li>
+            <li><Bullet /><a href="https://tailwindcss.com" target="_blank">Tailwindcss</a></li>
+          </ul>
+          <ul class="bullet-list mb">
+            <li><Bullet /><a href="https://vuejs.org" target="_blank">Vue JS</a></li>
+            <li><Bullet /><a href="https://www.nativescript.org" target="_blank">NativeScript</a></li>
+            <li><Bullet /><a href="https://jamstack.org" target="_blank">JAMStack</a></li>
+          </ul>
       </Card>
-
     </div>
   </Section>
 </template>
@@ -82,6 +60,11 @@ export default {
 
 <style lang="scss">
 .works {
+
+  .bullet-list {
+    display: inline-block;
+    margin-right: 2rem;
+  }
 
   .bullet-list li {
     margin-bottom: .3rem;

@@ -1,20 +1,16 @@
 <template>
   <nav class="main-nav flex gap-15">
-    <g-link to="/docs/">
-      <span class="main-nav__label">Docs</span>
-    </g-link>
+    <a href="#about">
+      <span class="main-nav__label">About</span>
+    </a>
 
-    <g-link to="/starters/">
-      <span class="main-nav__label">Starters</span>
-    </g-link>
+    <a href="#experience">
+      <span class="main-nav__label">Experience</span>
+    </a>
 
-    <g-link to="/plugins/">
-      <span class="main-nav__label">Plugins</span>
-    </g-link>
-
-    <g-link to="/blog/">
-      <span class="main-nav__label">Blog</span>
-    </g-link>
+    <a href="#contact">
+      <span class="main-nav__label">Contact</span>
+    </a>
   </nav>
 </template>
 

@@ -1,20 +1,20 @@
 <template>
-	<Section dots="true">
+	<Section dots="true" id="experience">
 		<h2 class="container text-center">
-      A better way to build websites & apps
-    </h2>
-    <p class="lead text-center container-md">
-    	Gridsome makes it simple & fast to build modern websites for any data source.
-    </p>
+          Experience
+        </h2>
+        <p class="lead text-center container-md">
+          Number of years doesn't matter but quality of learning does.
+        </p>
 
 		<div class="home-examples mb-x2">
 			<Examples />
 		</div>
 
     <p class="home-links text-center ">
-      <g-link  to="/docs/" class="button primary button--large">
-        Get started
-      </g-link>
+        <a  href="#contact" class="button primary button--large">
+            <span>Say Hi! 👋</span>
+        </a>
     </p>
 	</Section>
 </template>
