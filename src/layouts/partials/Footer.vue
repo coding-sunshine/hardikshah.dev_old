@@ -12,6 +12,6 @@ footer {
   border-top: 1px solid var(--border-color);
   margin-top: -1px;
   padding: 20px;
-  z-index: 10;
+  z-index: 9;
 }
 </style>
