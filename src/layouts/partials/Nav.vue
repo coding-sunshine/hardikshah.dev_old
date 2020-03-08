@@ -5,7 +5,7 @@
     </a>
 
     <a href="#experience">
-      <span class="main-nav__label">Experience</span>
+      <span class="main-nav__label">Work</span>
     </a>
 
     <a href="#contact">

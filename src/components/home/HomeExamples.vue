@@ -1,7 +1,7 @@
 <template>
 	<Section dots="true" id="experience">
 		<h2 class="container text-center">
-          Experience
+          Work
         </h2>
         <p class="lead text-center container-md">
           Number of years doesn't matter but quality of learning does.
