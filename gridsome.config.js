@@ -85,6 +85,25 @@ module.exports = {
           ]
         }
       }
+    },
+    {
+      use: 'gridsome-plugin-pwa',
+      options: {
+        title: 'Hardik Shah',
+        startUrl: '/',
+        display: 'standalone',
+        statusBarStyle: 'default',
+        manifestPath: 'manifest.json',
+        disableServiceWorker: true,
+        serviceWorkerPath: 'service-worker.js',
+        cachedFileTypes: 'js,json,css,html,png,jpg,jpeg,svg',
+        shortName: 'Hardik Shah',
+        themeColor: '#0D2836',
+        backgroundColor: '#0D2836',
+        icon: './src/assets/images/only-logo.png',
+        msTileImage: '',
+        msTileColor: '#0D2836'
+      }
     }
   ]
 }
