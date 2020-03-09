@@ -50,7 +50,6 @@ import WebpackLogo from '~/assets/images/webpack-logo.svg'
 import GridsomeLogo from '~/assets/images/gridsome-small-white.svg'
 import Bullet from '~/assets/images/bullet.svg'
 import Dots from '~/components/Dots.vue'
-import Logo from '~/components/Logo.vue'
 
 export default {
   components: {
@@ -59,8 +58,7 @@ export default {
     GridsomeLogo,
     WebpackLogo,
     GraphQlLogo,
-    Dots,
-    Logo
+    Dots
   }
 }
 </script>
