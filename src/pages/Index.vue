@@ -2,11 +2,11 @@
   <Layout class="layout-homepage">
 
     <LazyHydrate when-idle>
-      <home-intro-simple />
+      <home-intro />
     </LazyHydrate>
     
     <LazyHydrate when-visible>
-      <home-how-it-work-simple />
+      <home-about-me />
     </LazyHydrate>
     
     <LazyHydrate when-visible>
@@ -22,16 +22,16 @@
 
 <script>
 import LazyHydrate from 'vue-lazy-hydration'
-import HomeIntroSimple from '@/components/home/HomeIntroSimple.vue'
-import HomeHowItWorkSimple from '@/components/home/HomeHowItWorkSimple.vue'
+import HomeIntro from '@/components/home/HomeIntro.vue'
+import HomeAboutMe from '@/components/home/HomeAboutMe.vue'
 import HomeBlog from '@/components/home/HomeBlog.vue'
 import HomeExamples from '@/components/home/HomeExamples.vue'
 
 export default {
   components: {
     LazyHydrate,
-    HomeIntroSimple,
-    HomeHowItWorkSimple,
+    HomeIntro,
+    HomeAboutMe,
     HomeExamples,
     HomeBlog
   },
