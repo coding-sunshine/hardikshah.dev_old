@@ -5,7 +5,17 @@ module.exports = {
   siteUrl: `https://hardikshah.dev`,
   titleTemplate: '%s - Hardik Shah',
   siteDescription: 'I\'m a full-stack developer based in Melbourne, Victoria specializing in building (and occasionally designing) high-quality websites and applications. 🚀',
-  icon: './src/assets/images/only-logo.png',
+  icon: {
+    favicon: {
+      src: './src/assets/images/only-logo.png',
+      sizes: [16, 32, 96]
+    },
+    touchicon: {
+      src: './src/assets/images/only-logo.png',
+      sizes: [76, 152, 120, 167],
+      precomposed: true
+    }
+  },
   chainWebpack(config, { isServer }) {
     config.module.rules.delete('svg')
     config.module.rule('svg')
