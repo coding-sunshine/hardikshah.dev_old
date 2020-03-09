@@ -1,6 +1,6 @@
 ---
-title: Use data from any APIs
-filepath: gridsome.server.js
+title: Aecor Digital
+filepath: Aecor Digital
 filetype: js
 order: 2
 ---

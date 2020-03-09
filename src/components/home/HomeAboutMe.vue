@@ -18,7 +18,7 @@
           </p>
           <h4>Now</h4>
           <p>
-            In 2017 I moved to Melbourne, Australia to further explore the opportunities for Aecor Digital, and since then I am working as a remote CTO of Aecor Digital.
+            In 2017 I moved to Melbourne, Australia, and since then I am working as a remote CTO of <a target="_blank" href="https://aecordigital.com">Aecor Digital</a>.
           </p>
           <p>
             Here are a few technologies I've been working with recently:

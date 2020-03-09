@@ -10,7 +10,7 @@
     </LazyHydrate>
     
     <LazyHydrate when-visible>
-      <home-examples />
+      <home-experience />
     </LazyHydrate>
 
     <LazyHydrate when-visible>
@@ -25,14 +25,14 @@ import LazyHydrate from 'vue-lazy-hydration'
 import HomeIntro from '@/components/home/HomeIntro.vue'
 import HomeAboutMe from '@/components/home/HomeAboutMe.vue'
 import HomeBlog from '@/components/home/HomeBlog.vue'
-import HomeExamples from '@/components/home/HomeExamples.vue'
+import HomeExperience from '@/components/home/HomeExperience.vue'
 
 export default {
   components: {
     LazyHydrate,
     HomeIntro,
     HomeAboutMe,
-    HomeExamples,
+    HomeExperience,
     HomeBlog
   },
   

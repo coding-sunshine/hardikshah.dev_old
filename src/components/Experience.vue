@@ -47,7 +47,7 @@ export default {
 
 <static-query>
 query {
-  examples:	allExample (sortBy: "order", order: ASC)  {
+  examples:	allExample (sortBy: "order", order: DESC)  {
   	edges {
   		node {
   			title

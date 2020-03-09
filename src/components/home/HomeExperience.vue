@@ -7,29 +7,29 @@
           Number of years doesn't matter but quality of learning does.
         </p>
 
-		<div class="home-examples mb-x2">
-			<Examples />
+		<div class="home-experience mb-x2">
+			<Experience />
 		</div>
 
-    <p class="home-links text-center ">
-        <a  href="#contact" class="button primary button--large">
-            <span>Say Hi! 👋</span>
-        </a>
-    </p>
+        <p class="home-links text-center ">
+            <a  href="#contact" class="button primary button--large">
+                <span>Say Hi! 👋</span>
+            </a>
+        </p>
 	</Section>
 </template>
 
 <script>
-import Examples from '~/components/Examples.vue'
+import Experience from '~/components/Experience.vue'
 export default {
 	components: {
-		Examples
+        Experience
 	}
 }
 </script>
 
 <style>
-.home-examples {
+.home-experience {
 	margin: 0 auto;
 	max-width: 960px;
 }

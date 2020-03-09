@@ -76,7 +76,7 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'examples/*.md',
+        path: 'experience/*.md',
         typeName: 'Example',
         remark: {
           plugins: [
