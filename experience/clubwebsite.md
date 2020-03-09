@@ -1,29 +1,15 @@
 ---
 title: Clubwebsite
-filepath: Clubwebsite
+filepath: Web Developer
 filetype: js
 order: 2
 ---
-```js
-const axios = require('axios')
-
-module.exports = function (api) {
-  api.loadSource(async ({ addCollection }) => {
-    // Fetch data from APIs
-    const { data } = await axios.get('https://any.api.com')
-
-    // Create a new GraphQL Collection
-    const posts = addCollection('Post')
-
-    // Add data to the new collection
-    for (const item of data) {
-      posts.addNode({
-        id: item.id,
-        title: item.title,
-        date: item.date,
-        content: item.content
-      })
-    }
-  })
-}
+```html
+• Development of projects and complexity within the application.
+• Manage servers and server side technologies.
+• Provide technical expertise & suggesting the latest trends in technology.
+• Responsible for accurate and timely reporting against the project plan.
+• Ensure that project adheres to the quality coding and integrity.
+• Manage database design for the product.
+• Working with PHP/CakePHP, Ajax, MySql, jQuery, X/HTML, CSS, Javascript.
 ```

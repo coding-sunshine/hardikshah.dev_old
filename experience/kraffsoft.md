@@ -1,29 +1,12 @@
 ---
 title: Kraff Software
-filepath: Kraff Software
+filepath: Web Developer
 filetype: js
-order: 2
+order: 3
 ---
-```js
-const axios = require('axios')
-
-module.exports = function (api) {
-  api.loadSource(async ({ addCollection }) => {
-    // Fetch data from APIs
-    const { data } = await axios.get('https://any.api.com')
-
-    // Create a new GraphQL Collection
-    const posts = addCollection('Post')
-
-    // Add data to the new collection
-    for (const item of data) {
-      posts.addNode({
-        id: item.id,
-        title: item.title,
-        date: item.date,
-        content: item.content
-      })
-    }
-  })
-}
+```
+• Building and maintaining web application for US based company Terabitz Inc.
+• Creating and managing API's for third-party use.
+• Mobile friendly web development.
+• Web development using technologies including PHP, MySql, Ajax, X/HTML, CSS, Javascript, iPhone Web Development, API Development.
 ```

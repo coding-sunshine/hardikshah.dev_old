@@ -47,7 +47,7 @@ export default {
 
 <static-query>
 query {
-	experiences:	allExperiences (sortBy: "order", order: DESC)  {
+	experiences: allExperiences (sortBy: "order", order: ASC)  {
   	edges {
   		node {
   			title
