@@ -1,7 +1,7 @@
 <template>
   <footer class="text-center">
     By
-    <a target="_blank" href="https://twitter.com/hardsshah"> @hardsshah</a>
+    <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/hardsshah"> @hardsshah</a>
   </footer>
 </template>
 
