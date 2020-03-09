@@ -1,5 +1,5 @@
 <template>
-  <div class="logo">
+  <div class="logo" v-scroll-to="{ el: 'body', offset: 0 }">
     <g-link class="logo__link" to="/" title="Back to home">
       <Logo class="logo__svg hide-for-small" alt="hardikshah.dev" />
       <LogoSmall class="logo__svg show-for-small logo__svg--small" alt="hardikshah.dev" />

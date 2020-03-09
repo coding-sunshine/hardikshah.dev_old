@@ -5,7 +5,7 @@ module.exports = {
   siteUrl: `https://hardikshah.dev`,
   titleTemplate: '%s - Hardik Shah',
   siteDescription: 'I\'m a full-stack developer based in Melbourne, Victoria specializing in building (and occasionally designing) high-quality websites and applications. 🚀',
-
+  icon: './src/assets/images/only-logo.png',
   chainWebpack(config, { isServer }) {
     config.module.rules.delete('svg')
     config.module.rule('svg')
