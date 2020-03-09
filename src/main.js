@@ -16,8 +16,13 @@ const typography = new Typography({
   baseFontSize: '18px',
   baseLineHeight: 1.6,
   scaleRatio: 1.9,
-  headerFontFamily: ['Jost', 'Helvetica','Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial', 'sans-serif'],
-  bodyFontFamily: ['Jost', 'Helvetica','Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial', 'sans-serif'],
+  headerFontFamily: ['Calibre', 'Helvetica','Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial', 'sans-serif'],
+  bodyFontFamily: ['Calibre', 'Helvetica','Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial', 'sans-serif'],
+  overrideStyles: ({ adjustFontSizeTo, rhythm }, options, styles) => ({
+    a: {
+      fontFamily: ['SFMono', 'Fira Code', 'Fira Mono', 'Roboto Mono', 'Lucida Console', 'Monaco', 'monospace'].join(','),
+    },
+  })
 })
 
 export default function (Vue, { head, router, isServer }) {

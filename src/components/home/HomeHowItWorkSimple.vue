@@ -12,9 +12,9 @@
           </p>
           <h4>The Journey</h4>
           <p>
-            That was just a start of the journey, which lead me to work with another startup, Clubwebsite(UK), which was later acquired by the <a target="_blank" href="https://www.pitchero.com/">Pitchero</a>
+            That was just a start of the journey, which led me to work with another startup, Clubwebsite(UK), which was later acquired by the <a target="_blank" href="https://www.pitchero.com/">Pitchero</a>
 
-            In 2011 I co-founded <a target="_blank" href="https://aecordigital.com">Aecor Digital</a> and built an Indian based development team of 50 (and counting...)
+            In 2011 I co-founded <a target="_blank" href="https://aecordigital.com">Aecor Digital</a> and built an Indian based development and design team of 50 (and counting...)
           </p>
           <h4>Now</h4>
           <p>

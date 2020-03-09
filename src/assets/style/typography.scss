@@ -4,53 +4,107 @@
 }
 
 @font-face {
-  font-family: Jost;
-  src: local('Jost'), url(../fonts/Jost-400-Book.otf);
+  font-family: Calibre;
+  src: local('Calibre'), url(../fonts/Calibre/Calibre-Light.ttf);
   font-weight: 400;
   font-display: swap;
 }
 
 @font-face {
-  font-family: Jost;
-  src: local('Jost'), url(../fonts/Jost-400-BookItalic.otf);
+  font-family: Calibre;
+  src: local('Calibre'), url(../fonts/Calibre/Calibre-RegularItalic.ttf);
   font-weight: 400;
   font-display: swap;
   font-style: italic;
 }
 
 @font-face {
-  font-family: Jost;
-  src: local('Jost'), url(../fonts/Jost-500-Medium.otf);
+  font-family: Calibre;
+  src: local('Calibre'), url(../fonts/Calibre/Calibre-Medium.ttf);
   font-weight: 500;
   font-display: swap;
 }
 
 @font-face {
-  font-family: Jost;
-  src: local('Jost'), url(../fonts/Jost-500-MediumItalic.otf);
+  font-family: Calibre;
+  src: local('Calibre'), url(../fonts/Calibre/Calibre-MediumItalic.ttf);
   font-weight: 500;
   font-display: swap;
   font-style: italic;
 }
 
 @font-face {
-  font-family: Jost;
-  src: local('Jost'), url(../fonts/Jost-600-Semi.otf);
+  font-family: Calibre;
+  src: local('Calibre'), url(../fonts/Calibre/Calibre-Semibold.ttf);
   font-weight: 600;
   font-display: swap;
 }
 
 @font-face {
-  font-family: Jost;
-  src: local('Jost'), url(../fonts/Jost-600-SemiItalic.otf);
+  font-family: Calibre;
+  src: local('Calibre'), url(../fonts/Calibre/Calibre-SemiboldItalic.ttf);
   font-style: italic;
   font-weight: 600;
   font-display: swap;
 }
 
 @font-face {
-  font-family: Jost;
-  src: local('Jost'), url(../fonts/Jost-700-Bold.otf);
+  font-family: Calibre;
+  src: local('Calibre'), url(../fonts/Calibre/Calibre-Semibold.ttf);
+  font-weight: 700;
+  font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: SFMono;
+  src: local('SFMono'), url(../fonts/SFMono/SFMono-Regular.ttf);
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: SFMono;
+  src: local('SFMono'), url(../fonts/SFMono/SFMono-RegularItalic.ttf);
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: SFMono;
+  src: local('SFMono'), url(../fonts/SFMono/SFMono-Medium.ttf);
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: SFMono;
+  src: local('SFMono'), url(../fonts/SFMono/SFMono-MediumItalic.ttf);
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: SFMono;
+  src: local('SFMono'), url(../fonts/SFMono/SFMono-Semibold.ttf);
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: SFMono;
+  src: local('SFMono'), url(../fonts/SFMono/SFMono-SemiboldItalic.ttf);
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: SFMono;
+  src: local('SFMono'), url(../fonts/SFMono/SFMono-Semibold.ttf);
   font-weight: 700;
   font-display: swap;
 }
