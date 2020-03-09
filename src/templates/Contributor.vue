@@ -16,12 +16,6 @@
       <h3 class="text-center" v-if="$page.contributor.posts.edges.length">Blog posts</h3>
 
       <PostCard v-for="edge in $page.contributor.posts.edges" :key="edge.node.id" :post="edge.node"/>
-
-      <h3 class="text-center" v-if="$page.contributor.starters.edges.length">Starters</h3>
-
-      <div class="grid-cols grid-cols--2">
-        <StarterCard v-for="starter in $page.contributor.starters.edges" :key="starter.node.id" :node="starter.node" />
-      </div>
     </Section>
   </Layout>
 </template>
@@ -59,46 +53,16 @@ query ($id: ID!) {
         }
       }
     }
-    starters: belongsTo(filter: {typeName: {eq: Starter}}) {
-      totalCount
-      pageInfo {
-        totalPages
-        currentPage
-      }
-      edges {
-        node {
-          ...on Starter {
-              id
-              title
-              description
-              preview
-              repo
-              platforms {
-                title
-                logo
-              }
-              author {
-                title
-                path
-              }
-              path
-              screenshot  (width: 840, height:840)
-          }
-        }
-      }
-    }
   }
 }
 </page-query>
 
 <script>
 import PostCard from '@/components/PostCard.vue'
-import StarterCard from '@/components/StarterCard.vue'
 
 export default {
   components: {
-    PostCard,
-    StarterCard
+    PostCard
   },
   metaInfo () {
     return {
