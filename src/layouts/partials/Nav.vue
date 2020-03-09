@@ -1,14 +1,14 @@
 <template>
   <nav class="main-nav flex gap-15">
-    <a href="#about">
+    <a v-scroll-to="{ el: '#about', offset: -80 }">
       <span class="main-nav__label">About</span>
     </a>
 
-    <a href="#experience">
+    <a v-scroll-to="{ el: '#experience', offset: -30 }">
       <span class="main-nav__label">Work</span>
     </a>
 
-    <a href="#contact">
+    <a v-scroll-to="{ el: '#contact', offset: 50 }">
       <span class="main-nav__label">Contact</span>
     </a>
   </nav>

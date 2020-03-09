@@ -10,12 +10,6 @@
 		<div class="home-experience mb-x2">
 			<Experience />
 		</div>
-
-        <p class="home-links text-center ">
-            <a  href="#contact" class="button primary button--large">
-                <span>Say Hi! 👋</span>
-            </a>
-        </p>
 	</Section>
 </template>
 

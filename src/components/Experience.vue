@@ -1,7 +1,7 @@
 <template>
-	<div class="examples flex flex-align-top">
-		<div class="examples__sidebar">
-			<div class="examples__buttons">
+	<div class="experience flex flex-align-top">
+		<div class="experience__sidebar">
+			<div class="experience__buttons">
 				<div></div>
 				<div></div>
 				<div></div>
@@ -9,22 +9,22 @@
 			<a href="#" 
 				:class="{active: index == current}" 
 				@click.prevent="current = index" 
-				v-for="({ node }, index) in $static.examples.edges">
+				v-for="({ node }, index) in $static.experiences.edges">
 				{{ node.title }}
 			</a>
 		</div>
-		<div class="examples__frame">
-			<div class="examples__header flex hide-for-small" 
-				v-for="({ node }, index) in $static.examples.edges" 
+		<div class="experience__frame">
+			<div class="experience__header flex hide-for-small"
+				v-for="({ node }, index) in $static.experiences.edges"
 				v-if="index == current" 
 				:key="index">
-				<div class="examples__header-title">
+				<div class="experience__header-title">
 					<div> {{ node.filepath }} </div>
 				</div>
 			</div>
 			<transition name="slide">
-				<div class="examples__code" 
-					v-for="({ node }, index) in $static.examples.edges" 
+				<div class="experience__code"
+					v-for="({ node }, index) in $static.experiences.edges"
 					v-if="index == current" 
 					:key="index">
 					<div v-html="node.content" />
@@ -47,7 +47,7 @@ export default {
 
 <static-query>
 query {
-  examples:	allExample (sortBy: "order", order: DESC)  {
+	experiences:	allExperiences (sortBy: "order", order: DESC)  {
   	edges {
   		node {
   			title
@@ -74,7 +74,7 @@ query {
   position: absolute;
 }
 
-.examples {
+.experience {
 	background-color: var(--dark-bg);
 	border-radius: 10px;
 	overflow: hidden;
@@ -152,7 +152,7 @@ query {
 	}
 }
 
-#app .examples pre {
+#app .experience pre {
 	text-shadow: none;
 	padding: 0;
 	background-color: transparent;

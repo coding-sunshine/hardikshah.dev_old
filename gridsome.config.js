@@ -1,10 +1,10 @@
 const nodeExternals = require('webpack-node-externals')
 
 module.exports = {
-  siteName: 'Gridsome',
-  siteUrl: `https://www.gridsome.org`,
-  titleTemplate: '%s - Gridsome',
-  siteDescription: 'Gridsome is a free & open source Vue.js-powered framework for building websites & apps that are fast by default 🚀.',
+  siteName: 'Hardik Shah',
+  siteUrl: `https://hardikshah.dev`,
+  titleTemplate: '%s - Hardik Shah',
+  siteDescription: 'I\'m a full-stack developer based in Melbourne, Victoria specializing in building (and occasionally designing) high-quality websites and applications. 🚀',
 
   chainWebpack(config, { isServer }) {
     config.module.rules.delete('svg')
@@ -34,14 +34,13 @@ module.exports = {
     Contributor: '/contributor/:id',
     Starter: '/starters/:title',
     Platform: '/starters/platform/:id',
-    Example: node => node.path
   },
 
   plugins: [
     {
       use: '@gridsome/plugin-google-analytics',
       options: {
-        id: 'UA-127625720-1'
+        id: 'UA-160072651-2'
       }
     },
     {
@@ -53,31 +52,10 @@ module.exports = {
       }
     },
     {
-      use: '@gridsome/vue-remark',
-      options: {
-        index: ['README'],
-        baseDir: './docs',
-        pathPrefix: '/docs',
-        typeName: 'DocPage',
-        template: './src/templates/DocPage.vue',
-        plugins: [
-          '@gridsome/remark-prismjs'
-        ],
-        remark: {
-          autolinkHeadings: {
-            content: {
-              type: 'text',
-              value: '#'
-            }
-          }
-        }
-      }
-    },
-    {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'experience/*.md',
-        typeName: 'Example',
+        typeName: 'Experiences',
         remark: {
           plugins: [
             '@gridsome/remark-prismjs'
