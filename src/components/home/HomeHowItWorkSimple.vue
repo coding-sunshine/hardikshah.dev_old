@@ -33,6 +33,11 @@
             <li><Bullet /><a href="https://www.nativescript.org" target="_blank">NativeScript</a></li>
             <li><Bullet /><a href="https://jamstack.org" target="_blank">JAMStack</a></li>
           </ul>
+          <ul class="bullet-list mb">
+            <li><Bullet /><a href="https://www.mysql.com" target="_blank">MySql</a></li>
+            <li><Bullet /><a href="https://git-scm.com" target="_blank">Git</a></li>
+            <li><Bullet /><a href="https://aws.amazon.com" target="_blank">AWS</a></li>
+          </ul>
       </Card>
     </div>
   </Section>
@@ -45,6 +50,7 @@ import WebpackLogo from '~/assets/images/webpack-logo.svg'
 import GridsomeLogo from '~/assets/images/gridsome-small-white.svg'
 import Bullet from '~/assets/images/bullet.svg'
 import Dots from '~/components/Dots.vue'
+import Logo from '~/components/Logo.vue'
 
 export default {
   components: {
@@ -53,7 +59,8 @@ export default {
     GridsomeLogo,
     WebpackLogo,
     GraphQlLogo,
-    Dots
+    Dots,
+    Logo
   }
 }
 </script>
