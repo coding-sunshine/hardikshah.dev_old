@@ -80,11 +80,4 @@ module.exports = function (api) {
     })
 
   })
-
-  api.createPages(({ createPage }) => {
-    createPage({
-      path: '/plugins/:id*',
-      component: './src/templates/Plugin.vue'
-    })
-  })
 }
