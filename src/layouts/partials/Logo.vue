@@ -31,4 +31,7 @@ export default {
     }
   }
  }
+ .logofill{
+   fill: red;
+ }
 </style>

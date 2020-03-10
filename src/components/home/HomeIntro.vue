@@ -1,6 +1,6 @@
 <template>
   <Section class="intro" dots="true">
-    <div class="container text-center ">
+    <div class="container text-left ">
 
         <div class="intro__message mb" hidden></div>
 
@@ -100,7 +100,6 @@ export default {
 
   &__lead {
     max-width: 610px;
-    margin-left: auto;
     margin-right: auto;
     font-size: 1.3rem;
 
