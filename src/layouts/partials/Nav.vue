@@ -1,16 +1,16 @@
 <template>
   <nav class="main-nav flex gap-15">
-    <a v-scroll-to="{ el: '#about', offset: -80 }">
-      <span class="main-nav__label">About</span>
-    </a>
+<!--    <a v-scroll-to="{ el: '#about', offset: -80 }">-->
+<!--      <span class="main-nav__label">About</span>-->
+<!--    </a>-->
 
-    <a v-scroll-to="{ el: '#experience', offset: -30 }">
-      <span class="main-nav__label">Work</span>
-    </a>
+<!--    <a v-scroll-to="{ el: '#experience', offset: -30 }">-->
+<!--      <span class="main-nav__label">Work</span>-->
+<!--    </a>-->
 
-    <a v-scroll-to="{ el: '#contact', offset: 50 }">
-      <span class="main-nav__label">Contact</span>
-    </a>
+<!--    <a v-scroll-to="{ el: '#contact', offset: 50 }">-->
+<!--      <span class="main-nav__label">Contact</span>-->
+<!--    </a>-->
   </nav>
 </template>
 

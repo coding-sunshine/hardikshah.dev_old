@@ -70,8 +70,11 @@ export default {
 
 .intro {
   padding: calc(2% + var(--space)) 0;
+  min-height: calc(100vh);
+  display: flex;
+  align-items: center;
 
-  &__title {
+    &__title {
     font-size: 3rem;
     font-weight: 600;
     margin-left: auto;

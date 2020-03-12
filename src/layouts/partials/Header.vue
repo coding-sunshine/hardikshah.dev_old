@@ -9,48 +9,19 @@
 
 <!--      <SearchForm />-->
 
-      <nav class="header-actions flex">
+      <nav class="main-nav flex gap-15">
         <ToggleTheme />
 
-        <a
-          aria-label="Twitter"
-          href="//twitter.com/hardsshah"
-          rel="noopener noreferrer"
-          target="_blank"
-          title="Follow me on Twitter"
-        >
-          <twitter-logo/>
+        <a v-scroll-to="{ el: '#about', offset: -80 }">
+          <span class="main-nav__label">About</span>
         </a>
 
-        <a
-          aria-label="Codepen"
-          href="//codepen.io/coding-sunshine"
-          rel="noopener noreferrer"
-          class="hide-for-small"
-          target="_blank"
-          title="coding-sunshine @ Codepen"
-        >
-          <codepen-logo/>
+        <a v-scroll-to="{ el: '#experience', offset: -30 }">
+          <span class="main-nav__label">Work</span>
         </a>
 
-        <a
-          aria-label="github"
-          href="//github.com/coding-sunshine"
-          rel="noopener noreferrer"
-          target="_blank"
-          title="coding-sunshine @ GitHub"
-        >
-          <github-logo/>
-        </a>
-
-        <a
-          aria-label="linkedin"
-          href="//www.linkedin.com/in/hardsshah/"
-          rel="noopener noreferrer"
-          target="_blank"
-          title="hardsshah @ LinkedIn"
-        >
-          <linkedin-logo/>
+        <a v-scroll-to="{ el: '#contact', offset: 50 }">
+          <span class="main-nav__label">Contact</span>
         </a>
 
       </nav>
@@ -130,6 +101,23 @@ header {
 
   @media screen and (min-width: 992px) and (-webkit-max-device-pixel-ratio: 1) {
     backdrop-filter: blur(4px);
+  }
+}
+.main-nav {
+  flex-wrap: nowrap;
+  a {
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 850px) {
+  .main-nav {
+    order: 10;
+    min-width: 100%;
+    a {
+      padding-top: 5px;
+      padding-bottom: 10px;
+      cursor: pointer;
+    }
   }
 }
 </style>
