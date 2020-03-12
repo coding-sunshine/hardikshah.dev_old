@@ -16,8 +16,6 @@
         <div v-html="$page.post.content"/>
 
       </div>
-
-      <Newsletter />
     </Section>
   </Layout>
 </template>
@@ -42,11 +40,9 @@ query ($id: ID!) {
 
 <script>
 import PostMeta from '@/components/PostMeta.vue'
-import Newsletter from '@/components/Newsletter.vue'
 export default {
   components: {
     PostMeta,
-    Newsletter
   },
   metaInfo () {
     return {

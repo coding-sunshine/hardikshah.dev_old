@@ -7,7 +7,6 @@
 
       <Nav class="flex-fit"/>
 
-<!--      <SearchForm />-->
 
       <nav class="main-nav flex gap-15">
         <ToggleTheme />
@@ -29,18 +28,9 @@
   </header>
 </template>
 
-<static-query>
-query {
-  metadata {
-    gridsomeVersion
-  }
-}
-</static-query>
-
 <script>
 import Logo from './Logo'
 import Nav from './Nav'
-import SearchForm from '@/components/SearchForm.vue'
 import ToggleTheme from '@/components/ToggleTheme.vue'
 import GithubLogo from '@/assets/images/github-logo.svg'
 import TwitterLogo from '@/assets/images/twitter-logo.svg'
@@ -59,7 +49,6 @@ export default {
     DiscordLogo,
     CodepenLogo,
     LinkedinLogo,
-    SearchForm,
     Nav,
     LazyHydrate
   }

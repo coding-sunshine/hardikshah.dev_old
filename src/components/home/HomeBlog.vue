@@ -7,7 +7,6 @@
       <PostCard v-for="edge in $static.posts.edges" :key="edge.node.id" :post="edge.node"/>
     </div>
     <div class="container container-md mb" id="contact">
-<!--      <Newsletter />-->
           <Contact />
     </div>
 
@@ -16,13 +15,11 @@
 
 <script>
 import PostCard from '@/components/PostCard.vue'
-import Newsletter from '~/components/Newsletter'
 import Contact from '~/components/Contact'
 
 export default {
   components: {
     PostCard,
-    Newsletter,
     Contact,
   }
 }

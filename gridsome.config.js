@@ -13,7 +13,7 @@ module.exports = {
     touchicon: {
       src: './src/assets/images/only-logo.png',
       sizes: [76, 152, 120, 167],
-      precomposed: true
+      precomposed: false
     }
   },
   chainWebpack(config, { isServer }) {
@@ -103,7 +103,7 @@ module.exports = {
         networkFirst: {
           routes: [
             '/',
-            /\.(js|css|png|svg)$/,
+            /\.(js|css|png|svg|jpg|jpeg)$/,
           ],
         },
       },

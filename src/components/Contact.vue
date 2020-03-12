@@ -1,5 +1,5 @@
 <template>
-	<Card class="newsletter" id="mc_embed_signup">
+	<Card class="contact" id="mc_embed_signup">
 		<p class="mb-half"><strong>👋 Say Hi.</strong></p>
 		<p>
 			My inbox is always open. Whether for a potential project or just to say hi, I'll try my best to answer your email!
@@ -13,7 +13,7 @@
 </template>
 
 <style lang="scss">
-	.newsletter {
+	.contact {
 
 		&__top {
 			height: 4px;
