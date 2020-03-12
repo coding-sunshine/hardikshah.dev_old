@@ -28,6 +28,8 @@
     "@gridsome/vue-remark": "^0.1.0",
     "execa": "^1.0.0",
     "fs-extra": "^7.0.1",
+    "gridsome-plugin-manifest": "^0.3.4",
+    "gridsome-plugin-service-worker": "^0.1.4",
     "js-yaml": "^3.13.1",
     "node-sass": "^4.9.3",
     "raw-loader": "^0.5.1",

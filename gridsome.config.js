@@ -86,5 +86,27 @@ module.exports = {
         }
       }
     },
+    {
+      use: 'gridsome-plugin-manifest',
+      options: {
+        background_color: '#0D2836',
+        icon_path: './src/assets/images/only-logo.png',
+        name: 'Hardik Shah',
+        short_name: 'Hardik',
+        theme_color: '#73CBE2',
+        lang: 'en',
+      },
+    },
+    {
+      use: 'gridsome-plugin-service-worker',
+      options: {
+        networkFirst: {
+          routes: [
+            '/',
+            /\.(js|css|png|svg)$/,
+          ],
+        },
+      },
+    },
   ]
 }

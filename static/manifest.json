@@ -1,0 +1,48 @@
+{
+    "background_color": "#0D2836",
+    "icon_path": "./src/assets/images/only-logo.png",
+    "name": "Hardik Shah",
+    "short_name": "Hardik",
+    "theme_color": "#73CBE2",
+    "lang": "en",
+    "display": "minimal-ui",
+    "file_name": "manifest.json",
+    "orientation": "any",
+    "scope": "/",
+    "start_url": "/",
+    "dir": "auto",
+    "prefer_related_applications": false,
+    "related_applications": [],
+    "icons": [
+        {
+            "src": "/assets/img/only-logo-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "/assets/img/only-logo-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/assets/img/only-logo-144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "/assets/img/only-logo-96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "/assets/img/only-logo-72.png",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "/assets/img/only-logo-48.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        }
+    ]
+}
