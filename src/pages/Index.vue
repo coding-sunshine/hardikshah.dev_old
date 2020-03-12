@@ -37,7 +37,7 @@ export default {
   },
   
   metaInfo: {
-    title: 'Modern Site Generator for Vue.js'
+    title: 'Hardik Shah personal site'
   }
 }
 </script>
