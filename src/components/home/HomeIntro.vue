@@ -1,10 +1,10 @@
 <template>
   <Section class="intro" dots="true">
-    <div class="container text-left ">
+    <div class="text-left ">
 
         <div class="intro__message mb" hidden></div>
 
-        <span>Hi, my name is</span>
+        <span class="intro__hi">Hi, my name is</span>
         <h1 class="intro__title">
           <span>Hardik Shah</span>
           <br/>
@@ -74,6 +74,15 @@ export default {
   display: flex;
   align-items: center;
 
+    .container{
+        padding: 0 calc(2% + 3 * var(--space));
+    }
+
+    &__hi{
+        font-family: SFMono;
+        color: var(--primary-color-dark);
+    }
+
     &__title {
     font-size: 3rem;
     font-weight: 600;
@@ -85,6 +94,11 @@ export default {
         font-size: 2rem;
       }
     }
+
+        span {
+            display: block;
+            margin: 15px 0px;
+        }
   }
 
    &__subtitle {
