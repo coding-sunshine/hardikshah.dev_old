@@ -1,6 +1,6 @@
 <template>
   <div id="app" dark>
-    <div orientation="left" class="leftfixed">
+    <div orientation="left" class="leftfixed hide-for-small">
       <ul class="leftfixed--ul">
         <li>
           <a
@@ -49,7 +49,7 @@
         </li>
       </ul>
     </div>
-    <div orientation="right" class="rightfixed">
+    <div orientation="right" class="rightfixed hide-for-small">
       <div class="rightfixed--container">
         <a href="mailto:mail.hardikshah@gmail.com" class="rightfixed--container--link">mail.hardikshah@gmail.com</a>
       </div>

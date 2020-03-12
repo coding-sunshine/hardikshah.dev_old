@@ -9,7 +9,7 @@
 
 <script>
 import Logo from '~/assets/images/only-logo.svg'
-import LogoSmall from '~/assets/images/gridsome-logo-small.svg'
+import LogoSmall from '~/assets/images/logo-small.svg'
 export default {
   components: {
     Logo,

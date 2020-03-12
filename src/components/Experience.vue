@@ -1,11 +1,6 @@
 <template>
 	<div class="experience flex flex-align-top">
 		<div class="experience__sidebar">
-			<div class="experience__buttons">
-				<div></div>
-				<div></div>
-				<div></div>
-			</div>
 			<a href="#" 
 				:class="{active: index == current}" 
 				@click.prevent="current = index" 
