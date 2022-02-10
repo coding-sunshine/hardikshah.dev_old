@@ -31,7 +31,7 @@
     "gridsome-plugin-manifest": "^0.3.4",
     "gridsome-plugin-service-worker": "^0.1.4",
     "js-yaml": "^3.13.1",
-    "node-sass": "^4.9.3",
+    "node-sass": "^7.0.0",
     "raw-loader": "^0.5.1",
     "sass-loader": "^7.1.0",
     "svg-to-vue-component": "^0.2.2",
